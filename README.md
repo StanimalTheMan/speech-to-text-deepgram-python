@@ -3,20 +3,22 @@
 ## Installation and Setup
 
 Assuming you have Python3 installed, run:
-python3 -m venv venv
+`python3 -m venv venv`
 This will create a virtual environment called venv. You can name the second venv in the command anything you'd like to name the virtual env something different.
 
 Run:
-source venv/bin/activate
+`source venv/bin/activate`
 venv is the name of the virtual environment. Adjust accordingly.
 
-pip install deepgram-sdk python-dotenv openai
+`pip install deepgram-sdk python-dotenv openai`
+OR
+`pip install -r requirements.txt`
 
 Put this in a .env file:
 TODO: link to documentation for API key setup
 
-DEEPGRAM_API_KEY= [Your Deepgram API Key goes here]
-OPENAI_API_KEY= [Your OpenAI API Key goes here]
+`DEEPGRAM_API_KEY= [Your Deepgram API Key goes here]`
+`OPENAI_API_KEY= [Your OpenAI API Key goes here]`
 
 # Prerecorded audio file of diff voices
 
